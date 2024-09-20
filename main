@@ -1,0 +1,11 @@
+ER Diagram Representation:
+Entities:
+
+Gymnasium (Gym_ID, Name, Address, Phone_Number)
+Member (Member_ID, Last_Name, First_Name, Address, Date_of_Birth, Gender, Gym_ID)
+Session (Session_ID, Sport_Type, Schedule, Max_Capacity)
+Coach (Coach_ID, Last_Name, First_Name, Age, Specialty)
+Relationships:
+
+Registers: between Member and Session (1 to N)
+Led By: between Session and Coach (M to N)
